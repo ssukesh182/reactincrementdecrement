@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: white;
+  font-family: Arial, sans-serif;
+  color: black;
+}
+
+.app {
+  width: 300px;
+  margin: 80px auto;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 25px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.counter {
+  font-size: 48px;
+  margin-bottom: 25px;
+}
+
+.button-section {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+button {
+  border: 0;
+  padding: 5px 9px;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+button:first-child {
+  background: green;
+}
+
+button:last-child {
+  background: red;
+}
